@@ -1,0 +1,36 @@
+# Public template. Real credentials belong in the generated private config only.
+[app]
+video_source = "pexels"
+pexels_api_keys = []
+pixabay_api_keys = []
+api_key = ""
+llm_provider = "openai"
+openai_api_key = ""
+openai_base_url = ""
+openai_model_name = ""
+subtitle_provider = "edge"
+endpoint = ""
+material_directory = ""
+enable_redis = false
+redis_host = "localhost"
+redis_port = 6379
+redis_db = 0
+redis_password = ""
+max_concurrent_tasks = 2
+
+[whisper]
+model_size = "large-v3"
+device = "cpu"
+compute_type = "int8"
+
+[proxy]
+
+[azure]
+speech_key = ""
+speech_region = ""
+
+[siliconflow]
+api_key = ""
+
+[ui]
+hide_log = false

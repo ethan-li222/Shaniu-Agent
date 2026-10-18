@@ -1,0 +1,20 @@
+# Bundled MoneyPrinterTurbo API runtime; the Streamlit UI is not distributed.
+# Edge 6.1.19 returns HTTP 403 in live verification; external host adapts 7.x.
+moviepy==2.1.2
+edge-tts==7.2.8
+fastapi==0.115.6
+uvicorn==0.32.1
+openai==1.56.1
+faster-whisper==1.1.0
+loguru==0.7.3
+google.generativeai==0.8.3
+dashscope==1.20.14
+g4f==0.5.2.2
+azure-cognitiveservices-speech==1.41.1
+redis==5.2.0
+python-multipart==0.0.19
+requests>=2.31.0
+toml==0.10.2
+# Used by Shaniu's external adapter to normalize narration scripts.
+markdown-it-py>=3,<5
+imageio-ffmpeg==0.6.0

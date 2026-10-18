@@ -1,0 +1,145 @@
+{
+  "project": "MoneyPrinterTurbo",
+  "repository": "https://github.com/harry0703/MoneyPrinterTurbo",
+  "version": "1.2.6 local source snapshot",
+  "snapshot_date": "2026-10-17",
+  "license": "MIT",
+  "included": "API app, task pipeline and public landing page",
+  "excluded": [
+    "private config.toml",
+    "storage and downloaded media",
+    "webui and tests",
+    "fonts and songs without separate redistribution receipts",
+    "virtual environments and caches"
+  ],
+  "files": [
+    {
+      "path": "app/asgi.py",
+      "upstream_sha256": "be784b121fcfeea66c13f3b6831d81dc758f7fa9ae31d17ebccfc44560f2907a"
+    },
+    {
+      "path": "app/router.py",
+      "upstream_sha256": "e8d95fcdcbe0a33bcaa6526fb56ca1461670da7fb480fe2833bd89fcb8812cf3"
+    },
+    {
+      "path": "app/__init__.py",
+      "upstream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app/config/config.py",
+      "upstream_sha256": "3ca521e3dbca2ca6c7b4dc5dea63d94e3e18794ed96260668d0fedcb814275a5",
+      "distributed_sha256": "c4f3611976844b4ba3ea6bc856ede0f0f2aad32548c8b839be0a89acace35d7a",
+      "modifications": "Honor SHANIU_MPT_CONFIG, create config parent, refuse config-directory deletion"
+    },
+    {
+      "path": "app/config/__init__.py",
+      "upstream_sha256": "88d66e383f89f9b96e172b625e0a5a2fa0a636ea322279cbd40be4f3e272e284"
+    },
+    {
+      "path": "app/controllers/base.py",
+      "upstream_sha256": "c0ff7df22ad7ec2db09d475b15511a75f451ecaaef8ebdea391300419620715e"
+    },
+    {
+      "path": "app/controllers/ping.py",
+      "upstream_sha256": "f95eda5d8c5372791a8928597d8e9f0bbcd054983fa9ba539ac093c541bb5ba2"
+    },
+    {
+      "path": "app/models/const.py",
+      "upstream_sha256": "f6c930efb6526cf5d6fde7414e8a69b874214ee8373e8e76f2ba00bb9e38528d"
+    },
+    {
+      "path": "app/models/exception.py",
+      "upstream_sha256": "75f5fb3633cd840a4e5ce0219f36e7959e5959af30c5c7f74183b40521c061a8"
+    },
+    {
+      "path": "app/models/schema.py",
+      "upstream_sha256": "c6d8d9ecd313ea7fa7f7020c32fc27c87adef987202a4a148dbe65de4689b221"
+    },
+    {
+      "path": "app/models/__init__.py",
+      "upstream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app/services/llm.py",
+      "upstream_sha256": "432a13ee7bbd645eb8820feb86b97e0ba6cb94e71790afe24040749acf4698d7"
+    },
+    {
+      "path": "app/services/material.py",
+      "upstream_sha256": "d23f49f32c45d2888ae2c800bf85614f713f582ee4f036615c40412769586a14"
+    },
+    {
+      "path": "app/services/state.py",
+      "upstream_sha256": "c3e2b82355a5d20f2443395470ab8c59cb1dd73ed794557b319ecae395894729"
+    },
+    {
+      "path": "app/services/subtitle.py",
+      "upstream_sha256": "0417bdb82fdc309c3d81fe64b5fcbea05267bb7bea8b8846e6baeabe0f6d5e52"
+    },
+    {
+      "path": "app/services/task.py",
+      "upstream_sha256": "15acfb11332b8d3253265e928480dbc7640dce40894a017fc6f8aa3aa31e542d"
+    },
+    {
+      "path": "app/services/video.py",
+      "upstream_sha256": "2168e586ab07d53a75b32298a497822e1442c909e397b04fd96b75cd0b39bfa4"
+    },
+    {
+      "path": "app/services/voice.py",
+      "upstream_sha256": "8c306327c3c6ac561631cf6cd9aad10f2768f0b0f79669705c8dd686a18eafd6"
+    },
+    {
+      "path": "app/services/__init__.py",
+      "upstream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app/utils/utils.py",
+      "upstream_sha256": "6f8e8ac2cdd9b74d6ab7d7707b3b54fc584fd9efee41a78cf5403fd1da33c2b5"
+    },
+    {
+      "path": "app/services/utils/video_effects.py",
+      "upstream_sha256": "18849ab3b12df8c07eefe430c79aeedfcc9f51da14264d9f7212ab93a8f6384a"
+    },
+    {
+      "path": "app/controllers/manager/base_manager.py",
+      "upstream_sha256": "9c07ffd60c1e5410afcea996bfaa787fc17b11e6dbaf0fef57db9297a9eb7b46"
+    },
+    {
+      "path": "app/controllers/manager/memory_manager.py",
+      "upstream_sha256": "97e8fd1591dcc71c7b902c0d9eb64eea980938bcce0196405d2fa9a01ca52ba5"
+    },
+    {
+      "path": "app/controllers/manager/redis_manager.py",
+      "upstream_sha256": "2bb76cbcabbf4d623c4b684b087855b3b47fc8d9bf303189223b3fdd73114ab7"
+    },
+    {
+      "path": "app/controllers/v1/base.py",
+      "upstream_sha256": "6d492d804903c9a90a9ffae1a8ab6056c7e5b47f8ea59a7d9efb65e315a27177"
+    },
+    {
+      "path": "app/controllers/v1/llm.py",
+      "upstream_sha256": "0ddfe36f3a443002cb81e5ebbc6a62ee19ac9788ec39de0ebe08a145d21dab4a"
+    },
+    {
+      "path": "app/controllers/v1/video.py",
+      "upstream_sha256": "75bc9289c211f0dbde1887394dc00b780100e93c56955a94e320fe1cd2f30979"
+    },
+    {
+      "path": "LICENSE",
+      "upstream_sha256": "87dd19b6a0779e14a91c1b06423ef251df37e89666160c031130a26bae68c229"
+    },
+    {
+      "path": "resource/public/index.html",
+      "upstream_sha256": "47fb49d3448042536f812076c638e9c957359bc49e624a03b3c70dd42b118f28"
+    }
+  ],
+  "added_files": [
+    {
+      "path": "config.example.toml",
+      "sha256": "afded9b9e9da1005607fe0d29dca81898104acd80f3c0138b6fb7336999dbfe3"
+    },
+    {
+      "path": "README.md",
+      "sha256": "78617dd051b071f0cfcd63fcc135e849ebe78cb2fae1ccc31d09629c809a2bc3"
+    }
+  ]
+}

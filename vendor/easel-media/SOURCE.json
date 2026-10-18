@@ -1,0 +1,23 @@
+{
+  "project": "Easel",
+  "repository": "https://github.com/ZJU-REAL/Easel",
+  "snapshot": "local-2026-10-12",
+  "license": "Apache-2.0",
+  "files": [
+    {
+      "file": "video_ops.py",
+      "source": "skills/shared/scripts/video_ops.py",
+      "sha256": "aa67f3f221b719e665ae318c46e265ce9d107be7ee565293b86a2554894fae26"
+    },
+    {
+      "file": "reframe.py",
+      "source": "skills/shared/scripts/reframe.py",
+      "sha256": "4808ca8bf674c76928d8c9e1566e61e921fae807d4b5b824ec21b9129663232d"
+    },
+    {
+      "file": "subtitle_ops.py",
+      "source": "skills/shared/scripts/subtitle_ops.py",
+      "sha256": "d190eabc5b21aec49d96584bd42126259b0fb92fc3c491fd32d3364ad98e8203"
+    }
+  ]
+}

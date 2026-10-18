@@ -1,0 +1,34 @@
+{
+  "project": "adu-motion-video",
+  "version": "3.14.0-rc.1",
+  "license": "MIT",
+  "source": "https://github.com/adunext/adu-motion-video",
+  "files": [
+    {
+      "source": "LICENSE",
+      "file": "LICENSE",
+      "sha256": "0f1d5e25e1035cf4fb24809d66dff30642a2d4c5a33837ba7e0e8af4ff66fdfc"
+    },
+    {
+      "source": "THIRD_PARTY.md",
+      "file": "THIRD_PARTY.md",
+      "sha256": "5df3be0612bd22058f639d718d83ad669175a7c4f5aa5f80818a6500ff8b8330"
+    },
+    {
+      "source": "template/subtitles.js",
+      "file": "subtitles.js",
+      "sha256": "d750fb1ded7a6571f02902006d21b727bf9ed9e216f68f49be70e28fccbd88f9"
+    },
+    {
+      "source": "scripts/audiolib.py",
+      "file": "audiolib.py",
+      "sha256": "4f244ee0650b61c1d998df786adec509d837f9e7f62c39fc5798cf269af8a980"
+    },
+    {
+      "source": "template/lib.js",
+      "file": "motion-primitives.js",
+      "transformation": "core helpers and EZ easing only",
+      "sha256": "e6cc8fdacaa9818ac92d99026ed5d40d07544a6ab969d496c247fe2f84039c38"
+    }
+  ]
+}
